@@ -58,7 +58,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Author
 
-[Sahan Ranasingha](www.linkedin.com/in/sahanranasingha)
+[Sahan Ranasingha](https://www.linkedin.com/in/sahanranasingha)
 
 ## Contact
 
