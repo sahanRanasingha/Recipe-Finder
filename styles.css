@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/Assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 20px;
+    padding-bottom: 30px;
+    background: #E0EEE0;
+    border-radius: 7px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.container .search-box {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container .search-box input {
+    all: unset;
+    height: 40px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 10px;
+    border: 2px solid #228B22;
+    border-radius: 30px;
+    font-size: 15px;
+    background: #F5FFFA;
+}
+
+.container .search-box input::placeholder {
+    font-size: 14px;
+}
+
+.container .fa-magnifying-glass {
+    color: #228B22;
+    font-size: 16px;
+    position: absolute;
+    left: 35px;
+}
+
+.container .displaying-message {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #2E8B57;
+    margin-left: 50px;
+    position: relative;
+    top: 14px;
+}
+
+.container .meal-image {
+    height: 150px;
+    width: 150px;
+    background: #556B2F;
+    border-radius: 100%;
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 90px;
+}
+
+.container .meal-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container .view-recipe-btn {
+    all: unset;
+    margin-top: 220px;
+    background: #228B22;
+    border-radius: 30px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.container .clear-btn {
+    all: unset;
+    margin-top: 220px;
+    margin-right: 10px;
+    background: #DC143C;
+    border-radius: 30px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.container .meal-details {
+    width: 205px;
+    border-radius: 30px;
+    font-size: 14px;
+    background: #98FB98;
+    text-align: center;
+    padding: 7px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 170px;
+    border: 2px solid #228B22;
+}
+
+.container .meal-name {
+    font-weight: 600;
+    color: #228B22;
+}
+
+.container .meal-area {
+    color: #2E8B57;
+}
+
+.container .ingredients-box {
+    position: relative;
+    top: 205px;
+}
+
+.container .ingredients-box ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8em 1.1em;
+    padding: 1.2em 0 0 1.2em;
+    font-size: 1em;
+}
+
+.container .ingredients-box li {
+    font-size: 12px;
+}
+
+.container .recipe-box {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #E0EEE0;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    transition: all .2s;
+    overflow-y: scroll;
+}
+
+.container .recipe-box::-webkit-scrollbar {
+    display: none;
+}
+
+.container .recipe-box .close-btn {
+    height: 35px;
+    width: 35px;
+    background: #228B22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.container .recipe-box .Instructions {
+    position: relative;
+    top: 5px;
+    font-size: .95em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: #556B2F;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
