@@ -6,6 +6,9 @@ Recipe Finder is a web application that allows users to search for recipes by en
 
 [![Watch the video](https://github.com/sahanRanasingha/Recipe-Finder/blob/main/Cover.jpeg)](https://youtu.be/LgC9SPm0DJk)
 
+## Website
+
+Explore the live version of Recipe Finder at : [Rezipefinder: Find Your Perfect Dish](https://rezipefinder.web.app/)
 
 ## Features
 
@@ -23,9 +26,9 @@ Recipe Finder is a web application that allows users to search for recipes by en
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/sahanRanasingha/Recipe-Finder.git
-   \`\`\`
+   ```
 
 2. Open the \`index.html\` file in your web browser.
 
