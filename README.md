@@ -2,6 +2,11 @@
 
 Recipe Finder is a web application that allows users to search for recipes by entering the name of a dish. It fetches recipe data from the MealDB API and displays detailed information about the selected dish, including ingredients and instructions.
 
+## How it Works
+
+[![Watch the video](https://github.com/sahanRanasingha/Recipe-Finder/blob/main/Cover.jpeg)](https://youtu.be/LgC9SPm0DJk)
+
+
 ## Features
 
 - Search for recipes by dish name.
